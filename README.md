@@ -1,6 +1,8 @@
 # MISW4202-Grupo-27
+## Arquitecturas ágiles de software
 
-## Juan Carlos Pineda
-## Lesly Campo 
-## Luis Correa
-## Nicolay Joya 
+## Integrantes:
+Juan Carlos Pineda
+Lesly Campo 
+Luis Correa
+Nicolay Joya 
