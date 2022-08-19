@@ -2,7 +2,7 @@
 ## Arquitecturas ágiles de software
 
 ## Integrantes:
-Juan Carlos Pineda \n
-Lesly Campo \n
-Luis Correa \n
-Nicolay Joya \n
+ - Juan Carlos Pineda
+ - Lesly Campo
+ - Luis Correa
+ - Nicolay Joya
