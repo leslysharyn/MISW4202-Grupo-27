@@ -10,7 +10,7 @@ app_context = app.app_context()
 app_context.push()
 api = Api(app)
 api.init_app(app)
-
+failsService = True
 
 class VistaAlarma(Resource):
 
@@ -18,11 +18,15 @@ class VistaAlarma(Resource):
 
         random_fail = random.randint(0, 10)
         app.logger.info(random_fail)
-
-        if random_fail >= 9:
-            return {
-                "result": "fallo en el proceso",
-            }, 404
+        if failsService:
+            if random_fail >= 9:
+                return {
+                    "result": "fallo en el proceso",
+                }, 404
+            else:
+                return {
+                    "result": "alarma procesada",
+                }, 200
         else:
             return {
                 "result": "alarma procesada",
